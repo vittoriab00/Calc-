@@ -1,0 +1,19 @@
+﻿<Window x:Class="Calc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calc"
+        mc:Ignorable="d"
+        Title="Calc" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="inNum" HorizontalAlignment="Left" Margin="179,55,0,0" TextWrapping="Wrap" Text="1200" VerticalAlignment="Top" Width="143"/>
+        <RadioButton x:Name="rb1" Content="BIN" HorizontalAlignment="Left" Margin="179,125,0,0" VerticalAlignment="Top" Checked="rb_Checked" RenderTransformOrigin="0.812,0.951"/>
+        <RadioButton x:Name="rb2" Content="OCT" HorizontalAlignment="Left" Margin="179,154,0,0" VerticalAlignment="Top" Checked="rb_Checked"/>
+        <RadioButton x:Name="rb3" Content="HEX" HorizontalAlignment="Left" Margin="179,183,0,0" VerticalAlignment="Top" Checked="rb_Checked"/>
+        <TextBlock x:Name="outNum" HorizontalAlignment="Left" Margin="179,78,0,0" TextWrapping="Wrap" Text="Ответ" VerticalAlignment="Top" Height="47" Width="143"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="179,217,0,0" VerticalAlignment="Top" Width="143" Click="Button_Click"/>
+
+
+    </Grid>
+</Window>
